@@ -3,20 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* shared style */
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+.logo h2 {
+    font-size: 45px;
+    font-weight: 800;
 
+}
+.primary-color{
+    color: #FD6E0A;
+}
+/* main styles */
 header {
     background-color: #FFF8F3;
     padding-top: 50px;
 }
 nav {
     display: flex;
-    margin: 0px auto;
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    justify-content: space-between;
 }
-nav ul{
+nav .menu{
     display: flex;
-    text-decoration: none;
 }
