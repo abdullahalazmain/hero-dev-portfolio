@@ -339,6 +339,7 @@ footer .footer-container{
     #resume .resume-container{
         width: 100%;
         margin: 60px auto 0;
+        padding: 20px;
         flex-direction: column;
     }
     .resume-container hr{
@@ -352,5 +353,24 @@ footer .footer-container{
         font-size: 1rem;
         margin-bottom: 15px;
     }
-
+    /* Resume Section Style End */
+    
+    /* Footer Section Style Start */
+    footer{
+       margin-top: 80px;
+       padding: 80px 0;
+    }
+    .footer-container h2{
+        font-size: 2.rem;
+        margin-bottom: 20px;
+    }
+    footer .footer-container{
+        width: 71%;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .footer-container form input[type="text"], .footer-container form textarea {
+        width: 90%;
+        padding: 20px;
+    }
 }
