@@ -252,6 +252,13 @@ footer .footer-container{
     #about, #skills, #resume {
         margin-top: 80px;
     }
+    .section-heading h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .section-heading p {
+        font-size: 1rem;
+    }
 
     /* Header Style Start */
     header {
@@ -306,19 +313,26 @@ footer .footer-container{
         width: 90%;
         padding: 20px;
     }
-    .section-heading h2 {
-        font-size: 2rem;
-        margin-bottom: 15px;
-    }
-    .section-heading p {
-        font-size: 1rem;
-    }
     #about .about-content .about-info {
         flex-direction: column;
         gap: 10px;
     }
+    #skills .skills-content {
+        width: 90%;
+    }
+    #skills .skills-content .skills-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .skill-card h3 {
+        font-size: 1.25rem;
+        margin-bottom: 15px;
+    }
+    .skill-card p {
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    /* About Section Style End */
 
-
-
-
+    /* Resume Section Style Start */
 }
