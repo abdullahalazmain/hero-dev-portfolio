@@ -248,6 +248,11 @@ footer .footer-container{
 
 /* Media Query for Mobile Screen */
 @media screen and (max-width: 420px) {
+    /* Common Style */
+    #about, #skills, #resume {
+        margin-top: 80px;
+    }
+
     /* Header Style Start */
     header {
         background: url(../images/header_bg.png);
@@ -294,9 +299,24 @@ footer .footer-container{
     #banner .banner-image img{
         width: 100%;
     }
+    /* Header Style End */
 
-
-
+    /* About Section Style Start */
+    #about .about-content {
+        width: 90%;
+        padding: 20px;
+    }
+    .section-heading h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .section-heading p {
+        font-size: 1rem;
+    }
+    #about .about-content .about-info {
+        flex-direction: column;
+        gap: 10px;
+    }
 
 
 
