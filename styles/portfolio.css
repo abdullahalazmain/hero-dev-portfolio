@@ -323,6 +323,7 @@ footer .footer-container{
     #skills .skills-content .skills-box {
         flex-direction: column;
         gap: 20px;
+        align-items: center;
     }
     .skill-card h3 {
         font-size: 1.25rem;
@@ -335,4 +336,21 @@ footer .footer-container{
     /* About Section Style End */
 
     /* Resume Section Style Start */
+    #resume .resume-container{
+        width: 100%;
+        margin: 60px auto 0;
+        flex-direction: column;
+    }
+    .resume-container hr{
+        margin: 20px 0;
+    }
+    .resume-card .card-title{
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+    }
+    .resume-card .card-info{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
 }
