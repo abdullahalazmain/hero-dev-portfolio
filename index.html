@@ -188,6 +188,19 @@ to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eg
             </form>
         </section>
     </footer>
-
+    
+    <script>
+        const cards = document.querySelectorAll('.skill-card');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active-border');
+                } else {
+                    entry.target.classList.remove('active-border');
+                }
+            });
+        }, { threshold: 0.6 });
+        cards.forEach(card => observer.observe(card));
+    </script>
 </body>
 </html>
