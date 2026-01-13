@@ -1,3 +1,6 @@
+.hide{
+    display: none !important;
+}
 * {
     margin: 0;
     padding: 0;
@@ -63,10 +66,15 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+nav .menu-bar{
+    display: flex;
+    gap: 50px;
+}
+
 nav .menu{
     display: flex;
     list-style-type: none;
-    gap: 51px;
+    gap: 50px;
     align-items: center;
 }
 nav .menu a{
@@ -231,5 +239,19 @@ footer .footer-container{
     margin-bottom: 24px;
     border: none;
     border-radius: 5px;
+}
 
+/* Media Query for Mobile Screen */
+@media screen and (max-width: 420px) {
+    nav , nav .menu-bar{
+    flex-direction: column;
+    gap: 25px;
+    }
+    nav .menu-bar{
+        text-align: center;
+        align-items: center;
+    }
+    nav .menu{
+        gap: 50px;
+    }
 }
